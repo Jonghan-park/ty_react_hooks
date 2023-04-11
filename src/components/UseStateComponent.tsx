@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useEffect } from 'react'
+import React, { ChangeEvent, FormEvent } from 'react'
 import { useState } from 'react';
 import ShowProduct from './ShowProduct';
 
@@ -27,10 +27,6 @@ const UseStateComponent = () => {
       price: 0,
       qty: 1 })
   }
-
-  useEffect(() => {
-    console.log(products)
-  }, [products])
 
   return (
     <div className="hooks_container">
