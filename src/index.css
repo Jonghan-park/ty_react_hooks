@@ -40,3 +40,21 @@ nav ul li {
   justify-content: center;
   align-items: center;
 }
+.spread_contents{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 3rem;
+  width: 800px;
+  height: 300px;
+  
+}
+.show_product__contents{
+  font-size: 2rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
