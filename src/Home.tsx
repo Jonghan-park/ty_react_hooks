@@ -5,6 +5,7 @@ const Home = () => {
   return (
     <div className="container">
        <h1>Welcome to typescript & React</h1>
+       <p>This website is for using  </p>
     </div>
   )
 }
