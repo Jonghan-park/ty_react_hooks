@@ -13,7 +13,9 @@ const Nav = () => {
         <Link to="/usestate">
           <li>useState</li>
         </Link>
+        <Link to="/useeffect">
         <li>useEffect</li>
+        </Link>
         <li>useContext</li>
         <li>useReducer</li>
         <li>useRef</li>

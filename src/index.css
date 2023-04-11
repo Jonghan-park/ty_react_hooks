@@ -10,6 +10,9 @@ nav{
   text-decoration: none;
   color: black;
 }
+.highlight{
+  font-size: 2rem;
+}
 nav ul{
   flex: 4;
   display: flex;
