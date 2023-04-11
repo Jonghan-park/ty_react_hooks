@@ -22,6 +22,10 @@ const UseStateComponent = () => {
     e.preventDefault()
     product.id = Date.now()
     setProducts([...products, product])
+    setProduct({id: 0,
+      name: "",
+      price: 0,
+      qty: 1 })
   }
 
   useEffect(() => {
